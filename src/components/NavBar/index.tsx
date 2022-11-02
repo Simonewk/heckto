@@ -20,8 +20,8 @@ function index() {
             </div>
           </div>
           <div className="searchbar-wraper">
-            <form>
-              <input type="text" className="searchbar" />
+            <form className="searchbar">
+              <input type="text" className="search-input" />
 
               <button className="searchbar-button" type="submit" value="Search">
                 <img src={searchIcon} alt="" />

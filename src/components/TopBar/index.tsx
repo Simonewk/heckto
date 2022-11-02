@@ -17,7 +17,7 @@ const TopBar = () => {
             <span> </span>
             mhhasanul@gmail
           </li>
-          <li className="contact-left">
+          <li className="contact-left ">
             <img src={phone} alt="" />
             <span> </span>
             (12345)67890
@@ -34,15 +34,15 @@ const TopBar = () => {
             <option value="USD">USD</option>
             <option value="USD">GDP</option>
           </select>
-          <li className="topbar-right">
+          <li className="topbar-right topbar-icon-img">
             Login <img src={user} alt="" />
           </li>
 
-          <li className="topbar-right">
+          <li className="topbar-right topbar-icon-img">
             WishList <img src={heart} alt="" />
           </li>
 
-          <li className="topbar-right">
+          <li className="topbar-right topbar-icon-img">
             Trolley-icon <img src={trolley} alt="" />
           </li>
         </div>

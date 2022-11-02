@@ -49,12 +49,14 @@ li {
   align-items: flex-end;
 }
 
-.searchbar {
+.search-input {
   border: 1px solid lightgray;
   border-right: none;
+  height: 16px;
 }
 
 .searchbar-button {
   background-color: #fb2e86;
   border: 1px solid #fb2e86;
+  height: 20px;
 }
