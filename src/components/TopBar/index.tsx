@@ -14,12 +14,12 @@ const TopBar = () => {
         <ul className="topbar-left">
           <li className="contact-left">
             <img src={envelope} alt="" />
-            <span> </span>
+            {"  "}
             mhhasanul@gmail
           </li>
           <li className="contact-left ">
             <img src={phone} alt="" />
-            <span> </span>
+            {"  "}
             (12345)67890
           </li>
         </ul>
