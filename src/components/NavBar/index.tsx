@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles.scss";
-import searchIcon from "../../imgs/searchIcon.svg";
+import searchIcon from "../../assets/icons/searchIcon.svg";
 
 function index() {
   return (

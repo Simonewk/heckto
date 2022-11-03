@@ -1,9 +1,9 @@
 import "./styles.scss";
-import user from "../../imgs/user.svg";
-import envelope from "../../imgs/envelope.svg";
-import heart from "../../imgs/heart.svg";
-import trolley from "../../imgs/trolley.svg";
-import phone from "../../imgs/phone.svg";
+import user from "../../assets/icons/user.svg";
+import envelope from "../../assets/icons/envelope.svg";
+import heart from "../../assets/icons/heart.svg";
+import trolley from "../../assets/icons/trolley.svg";
+import phone from "../../assets/icons/phone.svg";
 //import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 //import { faUser, faHeart, faCartShopping } from "@fortawesome/free-solid-svg-icons";
 
