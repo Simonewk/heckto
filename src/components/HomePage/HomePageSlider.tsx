@@ -1,5 +1,5 @@
 import React from "react";
-import mainSliderImg1 from "../../assets/images/mainSliderImg1.png";
+import mainSliderImg1 from "assets/images/mainSliderImg1.png";
 import "./HomePageSlider.scss";
 
 function HomePageSlider() {
