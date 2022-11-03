@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap");
+
+.featured-product-section-container {
+  margin-bottom: 3%;
+}
+
+.feature-product-title-container {
+  display: flex;
+  justify-content: center;
+  margin: 5% 0% 2% 0%;
+}
+.featured-products-title {
+  font-size: 42px;
+  font-family: "Josefin Sans";
+  font-weight: bold;
+  color: #1a0b5b;
+}
+
+.card-section-container {
+  display: flex;
+  justify-content: center;
+}
+
+.card-container {
+  width: 65%;
+  display: grid;
+  grid-template-columns: repeat(4, 270px);
+  column-gap: 15px;
+}
+
+.featred-product-card {
+  width: 270px;
+  height: 361px;
+  background-color: yellow;
+}

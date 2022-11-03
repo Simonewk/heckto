@@ -1,7 +1,7 @@
 import TopBar from "../components/TopBar";
 import NavBar from "../components/NavBar";
-import HomePageSlider from "../components/HomePage/HomePageSlider";
-import FeaturedProducts from "../components/HomePage/FeaturedProducts/FeaturedProducts";
+import HomePageSlider from "../components/HomePage/HomepageSlider";
+import FeaturedProducts from "../components/HomePage/FeaturedProducts";
 
 const HomePage = () => {
   return (
