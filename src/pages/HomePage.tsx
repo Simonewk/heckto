@@ -1,6 +1,6 @@
 import TopBar from "../components/TopBar";
 import NavBar from "../components/NavBar";
-import HomePageSlider from "../components/HomePage/HomepageSlider";
+import HomePageCarousel, { CarouselItem } from "../components/HomePage/HomepageCarousel";
 import FeaturedProducts from "../components/HomePage/FeaturedProducts";
 
 const HomePage = () => {
@@ -8,7 +8,11 @@ const HomePage = () => {
     <>
       <TopBar />
       <NavBar />
-      <HomePageSlider />
+      <HomePageCarousel>
+        <CarouselItem> Item 1</CarouselItem>
+        <CarouselItem> Item 2</CarouselItem>
+        <CarouselItem> Item 3</CarouselItem>
+      </HomePageCarousel>
       <FeaturedProducts />
       Hello from HomePage!
     </>

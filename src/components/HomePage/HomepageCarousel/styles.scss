@@ -1,0 +1,26 @@
+.main-slider-show-container {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.homepageCarousel {
+  overflow: hidden;
+}
+
+//White-space keeps items in 1 line otherwise they will go into a new line by default.
+//transition animates the active changing item
+.inner {
+  white-space: no-wrap;
+  transition: transform 0.3;
+}
+
+//could use inline-flex or inline-block to keep items in 1 line
+.carousel-item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  background-color: green;
+  color: #fff;
+}
