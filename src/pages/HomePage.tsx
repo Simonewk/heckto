@@ -1,19 +1,22 @@
 import TopBar from "../components/TopBar";
 import NavBar from "../components/NavBar";
-import HomePageCarousel, { CarouselItem } from "../components/HomePage/HomepageCarousel";
+import Carousel from "../components/Carousel";
+import CarouselSlide from "../components/Carousel/CarouselSlide";
 import FeaturedProducts from "../components/HomePage/FeaturedProducts";
+
+import mainSliderImg1 from "assets/images/mainSliderImg1.png"
 
 const HomePage = () => {
   return (
     <>
-      <TopBar />
-      <NavBar />
-      <HomePageCarousel>
-        <CarouselItem> Item 1</CarouselItem>
-        <CarouselItem> Item 2</CarouselItem>
-        <CarouselItem> Item 3</CarouselItem>
-      </HomePageCarousel>
-      <FeaturedProducts />
+      <TopBar/>
+      <NavBar/>
+      <Carousel>
+        <CarouselSlide><img src={mainSliderImg1} alt="sample alt title"/></CarouselSlide>
+        <CarouselSlide><img src={mainSliderImg1} alt="sample alt title"/></CarouselSlide>
+        <CarouselSlide><img src={mainSliderImg1} alt="sample alt title"/></CarouselSlide>
+      </Carousel>
+      <FeaturedProducts/>
       Hello from HomePage!
     </>
   );
